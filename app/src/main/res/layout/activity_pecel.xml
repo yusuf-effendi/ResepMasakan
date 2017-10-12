@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.jalalkun.resepmasakansederhana.PecelActivity">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:text="Pecel"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/pecel" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_below="@+id/imageView5"
+            android:layout_marginTop="25dp"
+            android:text="Bahan-bahan
+        2 ikat daun singkong
+        2 ikat daun pepaya
+        1 ikat kacang panjang
+        1 bks tauge
+
+        Bumbu halus
+        1 ons kacang tanah
+        3 sg bawang merah
+        2 sg bawang putih
+        1 ruas jari kencur
+        2 lbr daun jeruk
+        3 keping gula merah
+        1 sdt asam jawa sesuai selera
+        Cabe rawit secukupnya
+        Garam
+
+        Langkah
+        Rebus semua sayuran.
+        Goreng kacang tanah,cabe,bawang merah+ bawang putih.
+        kemudian haluskan bersama daun jeruk dan gula merah.
+        masukan garam dan asam.tes rasa,bumbu siap dihidangkan bersama sayuran.   " />
+    </RelativeLayout>
+</ScrollView>

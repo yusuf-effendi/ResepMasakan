@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jalalkun.resepmasakansederhana.PepesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:text="Pepes"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@drawable/pepes" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginTop="26dp"
+            android:text="1. Pepes Tahu Salmon Sayur
+Bahan-bahan
+
+    1 buah tahu cina - hancurkan
+    1 potong ikan salmon - hancurkan/cincang halus
+    Segenggam kangkung / sayuran lainnya - siangi dengan di iris
+    2 buah telur
+    Bumbu Halus
+    4 buah bawang merah
+    1 buah bawang putih besar
+    sesuai selera Cabe
+    Tambahan
+    1 batang sereh di iris
+    secukupnya Garam, lada
+    Daun pisang
+
+Langkah
+
+    Siapkan/ panaskan kukusan
+
+    Setelah tahu dan salmon dihancurkan, masukkan kangkung yg sudah di iris. Campur dengan semua bumbu + telur. Aduk rata.
+
+    Masukkan ke dalam daun pisang.
+
+    Kukus hingga matang. Kurang lebih 20-30 menit.
+
+    Sajikan.
+
+" />
+    </RelativeLayout>
+</ScrollView>

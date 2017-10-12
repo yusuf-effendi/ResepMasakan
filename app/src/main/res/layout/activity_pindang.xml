@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jalalkun.resepmasakansederhana.PindangActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Pindang"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/pindang" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="21dp"
+            android:text="Bahan-bahan
+    4-5 porsi
+
+    1 ekor ikan lais segar
+    4 ekor udang bago besar
+    3 gls air
+    15 buah cabe merah keriting
+    15 butir bawmer
+    1/4 buah Nanas, diparut
+    Garam, gula, terasi
+    2 buah tomat merah besar
+    3 sdm air asam jawa
+    Lengkuas
+    Sallam
+    Sereh
+    Daun bawang potong bulat 2 cm
+
+Langkah
+
+    Bersihkan ikan, potong 4-5.
+
+    Didihkan air, masukkan cabe merah dan bawmer yg telah dihaluskan. Tambahkan lengkuas, salam, n sereh. Biarkan sampai bumbu matang.
+
+    Masukkan ikan, parutan nenas, asam jawa, gula, garam, dan terasi. Biarkan mendidih selama 15 menit lalu masukkan udang, tomat, dan daun bawang masak lagi 5 menit, matikan api, angkat, hidangkan hangat.
+
+    Pelengkap nasi putih, sambal terasi n lalapan. Hmm...
+" />
+    </RelativeLayout>
+</ScrollView>
